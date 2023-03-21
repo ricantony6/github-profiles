@@ -55,3 +55,29 @@ body {
   .user-form input:focus {
     outline: none;
   }
+
+  .card {
+    max-width: 800px;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    padding: 3rem;
+    margin: 0 1.5rem;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    border: 10px solid var(--focar-color);
+    height: 150px;
+    width: 150px;
+  }
+  
+  .user-info {
+    color: var(--text-color);
+    margin-left: 2rem;
+  }
+  
+  .user-info h2 {
+    margin-top: 0;
+  }
