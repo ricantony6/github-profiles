@@ -7,8 +7,9 @@
 
 :root {
     --font-family: 'Poppins', sans-serif;
-    --bg-color:  #394546;
-    --focar-color: #2d3131;
+    --bg-color: #263b3d;
+    --card-color: #263334;
+    --focar-color: #375858;
     --box-shadow:  0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
     --text-color: #eee;
@@ -58,7 +59,7 @@ body {
 
   .card {
     max-width: 800px;
-    background-color: var(--bg-color);
+    background-color: var(--card-color);
     border-radius: 20px;
     box-shadow: var(--box-shadow);
     display: flex;
